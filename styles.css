@@ -1,0 +1,35 @@
+#header	{
+	height: 200px;
+	background-color: #00f
+	}
+	
+	li:nth-last-child(n+101) { /*выполняет условие ограничения количества элементов списка*/
+ display: none;
+}
+
+	h1 {text-align: center}
+	
+#achieve{
+	list-style-image: url(11.jpg);
+	position: absolute;
+	left:20%;
+	width:70%;
+	
+}
+#unlocked58{
+	list-style-image: url(58.jpg);
+
+}
+#unlocked3{
+	list-style-image: url(3.jpg);
+}
+#unlocked2{
+	list-style-image: url(12.jpg);
+}
+#unlocked4{
+	list-style-image: url(4.jpg);
+}
+#achieve > li{
+	border: 0.5px solid #100;
+	text-align: center;
+}
